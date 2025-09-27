@@ -37,7 +37,7 @@ export function Hero() {
           <div className="space-y-8">
             <div>
               <h1 className="hero-title text-5xl lg:text-7xl font-bold text-foreground mb-4 text-balance">
-                Alex Johnson
+                Ryan Mahesa
               </h1>
               <h2 className="hero-subtitle text-xl lg:text-2xl text-primary font-medium mb-6">Full Stack Developer</h2>
               <p className="hero-description text-lg text-muted-foreground leading-relaxed max-w-2xl">
