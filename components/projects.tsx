@@ -4,30 +4,30 @@ import { Button } from "@/components/ui/button"
 export function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "NABUNG.AI - AI Powered Business Intelligence",
       description:
-        "A modern e-commerce platform built with Next.js and Stripe integration. Features include real-time inventory management, advanced search, and mobile-optimized checkout flow.",
-      image: "/modern-ecommerce-interface.png",
-      technologies: ["Next.js", "TypeScript", "Stripe", "Prisma"],
-      github: "https://github.com",
+        "Many small business owners in the F&B and retail sectors still rely on manual record-keeping or random spreadsheets that are extremely difficult to track. They struggle to monitor business performance in real time, manage inventory, and make data-driven decisions. That's where NABUNG.AI comes in — an all-in-one platform that helps them manage their businesses more intelligently using AI and real-time data.",
+      image: "/TampilanAwal.jpg",
+      technologies: ["React.js", "GO", "Next.js", "PostgreSQL"],
+      github: "https://github.com/RyanMahesa/garudahacks.git",
+      live: "https://youtu.be/gATboBoVpg0?feature=shared",
+    },
+    {
+      title: "Picverse – A Digital Art Community Platform ",
+      description:
+        "A community-driven platform designed for digital artists to share, showcase, and collaborate on creative works. Built with a responsive design and interactive features, Picverse enables users to explore artworks, connect with fellow creators, and participate in a vibrant digital art community.",
+      image: "/TampilanAwalHCI.jpg",
+      technologies: ["HTML", "CSS", "Java Script"],
+      github: "https://github.com/RyanMahesa/Project_Lab_Hci.git",
       live: "https://example.com",
     },
     {
-      title: "Task Management App",
+      title: "Portfolio Website",
       description:
-        "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with React and Socket.io.",
-      image: "/task-management-dashboard.png",
-      technologies: ["React", "Socket.io", "MongoDB", "Express"],
-      github: "https://github.com",
-      live: "https://example.com",
-    },
-    {
-      title: "Weather Analytics Dashboard",
-      description:
-        "Data visualization dashboard for weather analytics with interactive charts, real-time data updates, and responsive design. Integrates with multiple weather APIs.",
-      image: "/weather-analytics-dashboard-charts.jpg",
-      technologies: ["Vue.js", "D3.js", "Node.js", "Redis"],
-      github: "https://github.com",
+        "A modern personal portfolio website built to highlight my professional experiences, achievements, and selected projects. Designed with responsive layouts, interactive UI components, and optimized performance to provide a smooth user experience across devices. This project reflects my ability to combine design, functionality, and scalability in presenting a professional digital presence.",
+      image: "/WebsitePorto.jpg",
+      technologies: ["Next.js", "TypeScript", "CSS", "Vercel"],
+      github: "https://github.com/RyanMahesa/PortfolioWeb.git",
       live: "https://example.com",
     },
   ]
@@ -39,7 +39,7 @@ export function Projects() {
           <div className="w-12 h-0.5 bg-primary mb-4"></div>
           <h2 className="text-3xl font-bold text-foreground mb-4">Selected Projects</h2>
           <p className="text-lg text-muted-foreground max-w-2xl">
-            A collection of projects that showcase my skills in full-stack development, from concept to deployment.
+            A collection of projects that highlight my expertise in technology, product development, and leadership.
           </p>
         </div>
 

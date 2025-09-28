@@ -7,9 +7,9 @@ import "./globals.css"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "Alex Johnson - Full Stack Developer",
+  title: "Ryan Mahesa - Product Manager",
   description:
-    "Interactive CV and portfolio of Alex Johnson, a passionate full-stack developer crafting exceptional digital experiences.",
+    "Interactive CV and portfolio of Ryan Mahesa, a dedicated Product Manager crafting innovative product strategies and leading cross-functional teams to success.",
   generator: "v0.app",
 }
 

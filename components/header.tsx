@@ -22,11 +22,8 @@ export function Header() {
   }
 
   const downloadCV = () => {
-    // Create a dummy PDF download
-    const link = document.createElement("a")
-    link.href = "/cv-document.jpg"
-    link.download = "Alex_Johnson_CV.pdf"
-    link.click()
+    // Download the actual CV PDF
+    window.location.href = encodeURI("/RyanMahesa(CV).pdf")
   }
 
   return (
@@ -36,8 +33,8 @@ export function Header() {
       }`}
     >
       <nav className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
-          <div className="text-xl font-semibold text-foreground">Alex Johnson</div>
+        <div className="flex items-center justify-between max-w-[1400px] mx-auto w-full">
+          <div className="text-xl font-semibold text-foreground">Ryan Mahesa</div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

@@ -1,28 +1,28 @@
 export function Experience() {
   const experiences = [
     {
-      period: "2024 — Present",
-      title: "Senior Full-Stack Developer, Accessibility",
-      company: "TechCorp",
+      period: "Aug 2023 — Oct 2023",
+      title: "Education Counselor",
+      company: "Binus University",
       description:
-        "Build and maintain critical components used to construct TechCorp's frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-      technologies: ["JavaScript", "TypeScript", "React", "Node.js"],
+        "As an Education Counselor, I successfully marketed and sold application forms and scholarships at Binus University while providing guidance and educational support to prospective students. Through this role, I developed strong sales and communication skills, ensuring that students received the assistance they needed in pursuing their educational journey.",
+      technologies: ["Public Speaking", "Communication", "Sales & Marketing", "Presentation Skills"],
     },
     {
-      period: "2022 — 2024",
-      title: "Full-Stack Developer",
-      company: "StartupXYZ",
+      period: "May 2024 — July 2024",
+      title: "Future Leader Program",
+      company: "AIESEC",
       description:
-        "Developed and maintained multiple client-facing applications using modern web technologies. Led the migration from legacy systems to React-based architecture, improving performance by 40%.",
-      technologies: ["React", "Next.js", "PostgreSQL", "AWS"],
+        "I participated in a 3-month leadership development program that emphasized global mindset, self-awareness, and impact-driven leadership. Throughout the program, I collaborated with diverse teams to address real-world social issues through simulations and case discussions, while also attending workshops and mentorship sessions facilitated by global professionals. This experience strengthened my leadership, teamwork, and problem-solving skills in a multicultural environment.",
+      technologies: ["Global Mindset", "Self-Awareness", "Teamwork", "Problem-Solving"],
     },
     {
-      period: "2020 — 2022",
-      title: "Frontend Developer",
-      company: "Digital Agency Co",
+      period: "Jan 2025 — Desember 2025",
+      title: "President Of Binus Bekasi Volleyball ",
+      company: "Binus University",
       description:
-        "Created responsive web applications for various clients in e-commerce and fintech sectors. Collaborated with design teams to implement pixel-perfect interfaces and ensure cross-browser compatibility.",
-      technologies: ["Vue.js", "Sass", "Webpack", "Docker"],
+        "As the President of the Volleyball Student Club at Binus Bekasi, I led and managed over 50 active students while organizing and supervising regular training sessions, recruitment activities, and inter-campus competitions. I fostered team spirit, discipline, and leadership among members through mentoring and structured programs, while also liaising with university staff to ensure smooth communication and compliance with campus policies. Additionally, I coordinated and managed the team to execute programs effectively, ensuring activities were completed on time and aligned with organizational goals.",
+      technologies: ["Team Leadership", "Event Management", "Organizational Management", "Team Coordination"],
     },
   ]
 

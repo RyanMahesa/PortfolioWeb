@@ -25,32 +25,21 @@ export function About() {
           <div className="lg:col-span-2 space-y-8">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a developer passionate about crafting accessible, pixel-perfect user interfaces that blend
-                thoughtful design with robust engineering. My favorite work lies at the intersection of design and
-                development, creating experiences that not only look great but are meticulously built for performance
-                and usability.
+               I'm a Product Manager with a computer science background and hands-on experience in both product innovation and software development. I’ve worked on projects such as a supermarket cashier system, a data management program in C, Picverse — a digital art community website, and AI-driven solutions like a mood-based music recommendation system.
+
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Currently, I'm a Senior Full-Stack Developer at{" "}
-                <span className="text-primary font-medium">TechCorp</span>, specializing in accessibility. I contribute
-                to the creation and maintenance of UI components that power our platform's frontend, ensuring our
-                products meet web accessibility standards and best practices to deliver an inclusive user experience.
+               I was a Product Manager at Garuda Hacks, where my team achieved 3rd place for developing an innovative digital product. This experience sharpened my skills in defining product vision, aligning cross-functional teams, and delivering results under tight deadlines.
+
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                In the past, I've had the opportunity to develop software across a variety of settings — from{" "}
-                <span className="text-accent font-medium">advertising agencies</span> and{" "}
-                <span className="text-accent font-medium">large corporations</span> to{" "}
-                <span className="text-accent font-medium">start-ups</span>
-                and <span className="text-accent font-medium">small digital product studios</span>. Additionally, I also
-                released a <span className="text-accent font-medium">comprehensive video course</span> a few years ago,
-                guiding learners through building a web app with the React ecosystem.
+                Beyond product development, I also serve as the Head of Volleyball Student Club at Binus Bekasi, where I strengthen my leadership and organizational management skills.
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                In my spare time, I'm usually climbing, reading, hanging out with my wife and two cats, or running
-                around searching for the perfect <span className="text-accent font-medium">coffee beans</span>.
+               In my spare time, I enjoy exploring new technologies, reading books, and listening to self-development podcasts to continuously grow both personally and professionally.
               </p>
             </div>
           </div>

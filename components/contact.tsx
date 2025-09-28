@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Mail, Github, Linkedin, Twitter } from "lucide-react"
+import { Mail, Github, Linkedin } from "lucide-react"
 
 export function Contact() {
   return (
@@ -17,7 +17,7 @@ export function Contact() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
-              <a href="mailto:alex@example.com">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mahesaryan350@gmail.com" target="_blank" rel="noopener noreferrer">
                 <Mail className="w-4 h-4 mr-2" />
                 Get In Touch
               </a>
@@ -26,7 +26,7 @@ export function Contact() {
 
           <div className="flex justify-center gap-6 pt-8">
             <a
-              href="https://github.com"
+              href="https://github.com/RyanMahesa"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 text-muted-foreground hover:text-foreground transition-colors"
@@ -34,27 +34,20 @@ export function Contact() {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/ryan-mahesa-2210032a8"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 text-muted-foreground hover:text-foreground transition-colors"
             >
               <Linkedin className="w-6 h-6" />
             </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 text-muted-foreground hover:text-foreground transition-colors"
-            >
-              <Twitter className="w-6 h-6" />
-            </a>
+
           </div>
         </div>
 
         <div className="mt-16 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 Alex Johnson. Built with Next.js and deployed on Vercel.
+            © 2025 Ryan Mahesa. Built with Next.js and deployed on Vercel.
           </p>
         </div>
       </div>
